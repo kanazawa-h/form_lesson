@@ -35,6 +35,14 @@
 .is_fullwidth {
   width: 100%;
 }
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
 .is_facebook {
   color: #fff;
   background-color: #3b5999;
@@ -255,19 +263,19 @@
 .link_color:hover {
   color: #01bfbd;
 }
-a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  text-decoration: none;
-}
 .foot-part {
   text-align: center;
 }
 .foot-part p, .resend_mail {
-  margin-top: 8px;
+  margin-bottom: 8px;
   line-height: 16px;
   font-size: 12px;
+}
+.esend_mail {
+  display: inline-block;
+}
+.foot-part a:hover {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #01bfbd;
 }
